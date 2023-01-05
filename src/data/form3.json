@@ -1,0 +1,40 @@
+{
+  "form": [
+    {
+      "id": 1,
+      "type": "date-picker",
+      "name": "fromDate",
+      "value": "",
+      "label": "Desde",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "date-picker",
+      "name": "untilDate",
+      "value": "",
+      "label": "Hasta",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "file",
+      "name": "file",
+      "value": "",
+      "label": "Cargar Archivo",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    }
+  ]
+}

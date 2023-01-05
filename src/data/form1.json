@@ -1,0 +1,61 @@
+{
+  "form": [
+    {
+      "id": 1,
+      "type": "select",
+      "name": "select-1",
+      "label": "Corte de cabello",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "value": "cero",
+          "label": "Cero"
+        },
+        {
+          "id": 2,
+          "value": "fade",
+          "label": "Fade"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "select",
+      "name": "select-2",
+      "label": "Peluquero",
+      "value": "",
+      "options": [
+        {
+          "id": 1,
+          "value": "Benjamin",
+          "label": "Benjamin"
+        },
+        {
+          "id": 2,
+          "value": "Juan Pablo",
+
+          "label": "Juan Pablo"
+        }
+      ],
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "input",
+      "name": "comment",
+      "value": "",
+      "label": "Comentario adicional",
+      "validations": []
+    }
+  ]
+}

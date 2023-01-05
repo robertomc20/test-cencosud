@@ -1,0 +1,44 @@
+{
+  "form": [
+    {
+      "id": 1,
+      "type": "input",
+      "name": "reason",
+      "value": "",
+      "label": "Motivo de la solicitud",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "text-area",
+      "name": "details",
+      "value": "",
+      "label": "Detalle",
+      "validations": [
+        {
+          "type": "required"
+        },
+        {
+          "type": "maxLength",
+          "value": 200
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "date-picker",
+      "name": "eventDate",
+      "value": "",
+      "label": "Fecha del evento",
+      "validations": [
+        {
+          "type": "required"
+        }
+      ]
+    }
+  ]
+}
