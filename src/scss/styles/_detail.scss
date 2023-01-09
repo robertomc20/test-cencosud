@@ -1,0 +1,36 @@
+.detail {
+  display: flex;
+
+  &__datagrid {
+    width: 500px;
+    height: 100vh;
+  }
+
+  &__contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    // padding: 60px 80px;
+  }
+
+  &__contentTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  &__contentModal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 180px;
+  }
+
+  &__contentFields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

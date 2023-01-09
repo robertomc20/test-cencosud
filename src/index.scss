@@ -1,13 +1,12 @@
-
-
 // abstracts
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
+@use "./scss/abstracts/variables";
+@use "./scss/abstracts/mixins";
 
 // base
-@use './scss/base/base';
-@use './scss/base/resets';
+@use "./scss/base/base";
+@use "./scss/base/resets";
 
 // pages styles
-@import './scss/styles/sales';
-@import './scss/styles/sidebar';
+@import "./scss/styles/main";
+@import "./scss/styles/dynamicForm";
+@import "./scss/styles/detail";
